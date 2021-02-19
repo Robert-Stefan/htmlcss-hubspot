@@ -46,13 +46,27 @@ body {
     border: 1px solid #fe775a;
     border-radius: 5px;
 }
-
+.btn2 {
+    display: inline-block;
+    min-width: 70px;
+    padding: 20px;
+    margin: 30px 0;
+    text-decoration: none;
+    text-align: center;
+    color: #fe775a;
+    border: 1px solid #fe775a;
+    border-radius: 5px;
+}
 .btn.btn-orange {
     background: #fe775a;
     border: 1px solid transparent;
 
 }
+.btn2.btn-orange {
+    background: #fe775a;
+    border: 1px solid transparent;
 
+}
 .btn .btn-big {
     padding: 20px;
 }
@@ -111,4 +125,39 @@ body {
 }
 .header2 .header-bottom .header-section .menu-inline .fas {
     padding-left: 8px;
+}
+/*JUMBOTRON*/
+.jumbotron {
+height: 538px;
+    background-image: url(./img-hubspot/jumbotron.png);
+    background-color: #fff4ef;
+    background-size: 1260px;
+    background-repeat: no-repeat;
+    background-position: 103% 0px;
+}
+
+.jumbotron .container {
+    position: relative;
+    height: 100%;
+}
+
+.jumbotron .jumbotron-text {
+    padding-top: 50px;
+}
+
+.jumbotron .jumbotron-text h1 {
+    color: #33475b;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .jumbotron-text p {
+    line-height: 30px;
+    font-size: 14px;
+}
+.divisore {
+    height: 80px;
+    background: #afebe4;
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
 }
