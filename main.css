@@ -7,6 +7,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: #33475b;
+    background: #f4f9fd;
 }
 /*UTILITIES*/
 .container {
@@ -110,6 +111,9 @@ body {
     text-align: right;
 }
 /*HEADER BOTTOM*/
+.header2 {
+    background: white;
+}
 .header-bottom {
     height: 80px;
     position: relative;
@@ -171,6 +175,7 @@ height: 538px;
     text-align: center;
     background-color: #f4f9fd;
     background-size: 1200px;
+    margin-bottom: 50px;
 }
 .spot .spotlogo img{
     display: inline-block;
@@ -185,3 +190,40 @@ height: 538px;
     text-align: center;
     line-height: 30px;
 }
+/* SALE */
+.sale > .container {
+    background: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0, .2);
+    border-radius: 15px;
+}
+.sale .sale-logo img{
+    max-width: 62%;
+    padding-top: 70px;
+}
+.sale .sale-logo {
+    text-align: center;
+}
+.sale .sale-text h2{
+    padding: 50px 0;
+    font-size: 26px;
+}
+.sale .sale-text p {
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.sale .sale-text h3 {
+    margin-bottom: 50px;
+    position: relative;
+}
+.sale .sale-text h3:after {
+    display: inline-block;
+    content: "";
+    height: 2px;
+    background: #899397;
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    margin-top: -2px;
+    margin-left: 55px;
+  }
