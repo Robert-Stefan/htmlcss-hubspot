@@ -1,0 +1,114 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #33475b;
+}
+/*UTILITIES*/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 70px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #fe775a;
+    border: 1px solid #fe775a;
+    border-radius: 5px;
+}
+
+.btn.btn-orange {
+    background: #fe775a;
+    border: 1px solid transparent;
+
+}
+
+.btn .btn-big {
+    padding: 20px;
+}
+
+.menu-inline li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+/*HEADER TOP*/
+.header {
+    background: #f4f9fd; 
+}
+.header-top {
+    height: 80px;
+    position: relative;
+}
+.header-top .header-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    text-align: left;
+}
+.header-top .header-left .contact {
+    border-left: 2px solid #000;
+    padding-left: 20px;
+}
+.header-top .header-left .fa-chevron-down {
+    padding-right: 20px;
+}
+.header-top .header-right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: right;
+}
+/*HEADER BOTTOM*/
+.header-bottom {
+    height: 80px;
+    position: relative;
+}
+.header-bottom .header-logo {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.header-bottom .header-section {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: right;
+}
+.header2 .header-bottom .header-section .menu-inline .fas {
+    padding-left: 8px;
+}
