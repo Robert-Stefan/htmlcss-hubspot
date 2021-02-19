@@ -13,6 +13,10 @@ body {
     width: 1200px;
     margin: 0 auto;
 }
+.container-small {
+    width: 950px;
+    margin: 0 auto;
+}
 
 .clearfix::after {
     content: '';
@@ -160,4 +164,24 @@ height: 538px;
     background: #afebe4;
     border-top: 3px solid #33475b;
     border-bottom: 3px solid #33475b;
+    transform: translateY(0%);
+}
+/* SPOT */
+.spot {
+    text-align: center;
+    background-color: #f4f9fd;
+    background-size: 1200px;
+}
+.spot .spotlogo img{
+    display: inline-block;
+    max-width: 30%;
+    margin-top: 130px;
+}
+.spot .spotlogo h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.spot .spotlogo p {
+    text-align: center;
+    line-height: 30px;
 }
