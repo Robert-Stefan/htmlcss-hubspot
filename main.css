@@ -193,8 +193,9 @@ height: 538px;
 /* SALE */
 .sale > .container {
     background: white;
-    box-shadow: 5px 5px 5px rgba(0,0,0, .2);
+    box-shadow: 5px 5px 5px rgba(0,0,0,.1);
     border-radius: 15px;
+    margin-bottom: 50px;
 }
 .sale .sale-logo img{
     max-width: 62%;
@@ -227,3 +228,70 @@ height: 538px;
     margin-top: -2px;
     margin-left: 55px;
   }
+  /*PLANS*/
+.plans {
+    margin-bottom: 70px;
+}
+.plan-left{
+    background: #fff;
+    text-align: center;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.1);
+}
+.plan-center{
+    background: #fff;
+    text-align: center;
+    margin: 0 4.5%;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.1);
+}
+.plan-right{
+    background: #fff;
+    text-align: center;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.1);
+}
+.plans img {
+    padding-top: 20px;
+    max-width: 40%;
+}
+.plans .plan-left img{
+    max-width: 40%;
+}
+.plans .plan-center img {
+    max-width: 50%;
+}
+.plans .plan-right img {
+    max-width: 37%;
+}
+.plans h2 {
+    margin: 20px 0 40px 0;
+}
+.plans p {
+    color: black;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin: 0 20px;
+}
+.plans h3 {
+    margin: 40px 0;
+}
+.plans li {
+    padding-left: 40px;
+    text-align: left;
+    list-style: none;
+}
+.plans li:last-child {
+    margin-bottom: 30px;
+}
+.plans a {
+    margin-bottom: 30px;
+}
+.plans .divisore2 {
+    margin-top: 50px;
+    width: 75%;
+    margin-left: 40px;
+}
