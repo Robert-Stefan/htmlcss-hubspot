@@ -28,6 +28,9 @@ body {
 .float-left {
     float: left;
 }
+.float-right {
+    float: right;
+}
 
 .w-50 {
     width: 50%;
@@ -40,7 +43,6 @@ body {
 .w-70 {
     width: 70%;
 }
-
 .btn {
     display: inline-block;
     min-width: 70px;
@@ -351,4 +353,84 @@ height: 538px;
 .stats-data:nth-child(7) {
     border-bottom: 0;
 }
-
+/* PUBLISHER SECTION*/
+.publisher {
+    background: #fff;
+    height: 700px;
+}
+.publisher-content {
+    height: 600px;
+    width: 40%;
+}
+.publisher-icons {
+    height: 600px;
+    width: 60%;
+}
+.publisher-title {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.publisher-title h2{
+    font-size: 40px;
+}
+.publisher .publisher-content p {
+    margin-top: 15px;
+    padding-top: 30px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.publisher .publisher-content > .publisher-text h4 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+.publisher .publisher-content .subtext {
+    font-size: 12px; 
+    position: relative; 
+    margin-bottom: 70px;
+}
+.publisher-icons img {
+    margin-right: 30px;
+    width: 100px;
+}
+.first-icons {
+    padding-top: 40px;
+}
+.first-icons img:first-child,
+.second-icons img:first-child{
+    margin-left: 20px;
+}
+.first-icons img:nth-child(4),
+.second-icons img:nth-child(3) {
+    width: 90px;
+    position: relative;
+    top: 10px;
+}
+.first-icons img:nth-child(3){
+    transform: translate(10px, 10px);
+}
+.second-icons {
+    margin-top: 30px;
+}
+.second-icons img:nth-child(2),
+.second-icons img:nth-child(4) {
+    width: 90px;
+    position: relative;
+    bottom: 10px;
+}
+.second-icons img:nth-child(4){
+    margin-left: 10px;
+}
+.second-icons img:nth-child(3) {
+    width: 80px;
+    position: relative;
+    top: 0px;
+    margin-left: 20px;
+}
+.chinese img{
+    width: 300px;
+    position: relative;
+    left: 320px;
+    top: 100px;
+}
