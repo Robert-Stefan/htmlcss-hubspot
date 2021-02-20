@@ -295,3 +295,60 @@ height: 538px;
     width: 75%;
     margin-left: 40px;
 }
+/* STATISTICS */
+.stats {
+    height: 720px;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, #0baab7, #0db6ac );  
+}
+.stats .stats-top {
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+.stats .stats-top h2 {
+    font-size: 30px;
+}
+.stats .stats-top p {
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+.stats-data {
+    width: 25%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.stats-data .number,
+.stats-data .text {
+    color: #fff;
+}
+.stats-data .number{
+    margin-top: 20px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.stats-data .text {
+    margin: 15px 0;
+    font-size: 13px;
+}
+.stats-lane .stats-data > .growth{
+    padding-top: 10px;
+}
+.stats-data:nth-child(4) {
+    border-right: 0;
+}
+.stats-data:last-child {
+    border-bottom: 0;
+    border-right: 0;
+}
+.stats-data:nth-child(5),
+.stats-data:nth-child(6),
+.stats-data:nth-child(7) {
+    border-bottom: 0;
+}
+
