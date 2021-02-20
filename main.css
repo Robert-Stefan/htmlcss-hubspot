@@ -454,3 +454,19 @@ height: 538px;
 .footer .fab{
     padding: 20px 10px;
 }
+/*LANGUAGE FOOTER*/
+.language-footer {
+    background: #32495b;
+}
+.language-footer .languages li{
+    margin-top: 30px;
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+    color: #b7c3d0;
+    font-size: 15px;
+}
+.language-footer .languages {
+    text-align: center;
+}
+/*CREDITS FOOTER*/
