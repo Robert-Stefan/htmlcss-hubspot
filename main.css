@@ -470,3 +470,37 @@ height: 538px;
     text-align: center;
 }
 /*CREDITS FOOTER*/
+.credits-footer{
+    height: 150px;
+    background: #32495b; 
+}
+.logo {
+    height: 80px;
+    position: relative;
+}
+.logo .logo-left{
+    position: absolute;
+    top: 80%;
+    left: 0;
+    transform: translateY(-30%);
+    text-align: left;
+}
+.credits-footer .logo .logo-left p,
+.credits-footer .logo .logo-right p {
+    color: #b7c3d0;
+}
+.credits-footer .logo .logo-left p {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.credits-footer .logo .logo-right p {
+    display: inline;
+    padding: 20px 15px;
+}
+.logo .logo-right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: right;
+}
